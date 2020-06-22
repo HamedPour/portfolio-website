@@ -1,0 +1,63 @@
+{
+  "personalMetaData": {
+    "firstName": "Hamed",
+    "lastName": "Pour",
+    "email": "hamed_k.pour@hotmail.com",
+    "about": "Avid junior full-stack developer with a keen interested in lower level languages such as C++ and C. Currently studying toward a BSc in Computing and IT."
+  },
+  "EducationMetaData": {
+    "University": "The Open University",
+    "degreeTitle": "BSc (Honours) Computing and IT",
+    "publicProfileURL": "https://www.open.edu/openlearn/profiles/zx509384/my-ou-life",
+    "modules": [
+      {
+        "id": "1",
+        "moduleTitle": "Technologies in practice (TM129)",
+        "moduleLevel": "1",
+        "result": "Distinction"
+      },
+      {
+        "id": "2",
+        "moduleTitle": "Introduction to computing and information technology 1 (TM111)",
+        "moduleLevel": "1",
+        "result": "Distinction"
+      },
+      {
+        "id": "3",
+        "moduleTitle": "Introduction to computing and information technology 2 (TM112)",
+        "moduleLevel": "1",
+        "result": "Distinction"
+      },
+      {
+        "id": "4",
+        "moduleTitle": "Discovering Mathematics (MU123)",
+        "moduleLevel": "1",
+        "result": "Distinction"
+      },
+      {
+        "id": "5",
+        "moduleTitle": "Object-oriented Java programming (M250)",
+        "moduleLevel": "2",
+        "result": "Distinction"
+      },
+      {
+        "id": "6",
+        "moduleTitle": "Algorithms, data structures and computabality (M269)",
+        "moduleLevel": "2",
+        "result": "Distinction"
+      },
+      {
+        "id": "7",
+        "moduleTitle": "Web technologies (TT284)",
+        "moduleLevel": "2",
+        "result": "Distinction"
+      },
+      {
+        "id": "8",
+        "moduleTitle": "Managing IT: the why, the what and the how (TM254)",
+        "moduleLevel": "2",
+        "result": "Distinction"
+      }
+    ]
+  }
+}
