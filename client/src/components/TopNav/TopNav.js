@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+//comfig
+import routes from "./../../config/routes";
+
 //styled-components
 import TopNavContainer from "./styledComponents/TopNavContainer";
 import Nav from "./styledComponents/Nav";
@@ -11,7 +14,6 @@ function TopNav({ personalInfo }) {
   const activeLinkSyle = {
     fontWeight: "bold",
   };
-
   return (
     <TopNavContainer>
       <NavTitle>
@@ -23,18 +25,16 @@ function TopNav({ personalInfo }) {
       <Spacer />
       <Nav>
         <ul>
-          <NavLink exact activeStyle={activeLinkSyle} to="/">
-            <li>Works</li>
-          </NavLink>
-          <NavLink activeStyle={activeLinkSyle} to="/education">
-            <li>Education</li>
-          </NavLink>
-          <NavLink activeStyle={activeLinkSyle} to="/about">
-            <li>About</li>
-          </NavLink>
-          <NavLink activeStyle={activeLinkSyle} to="/community">
-            <li>Community</li>
-          </NavLink>
+          {routes.map((route, i) => (
+            <NavLink
+              to={route.path}
+              exact={route.exact}
+              key={i}
+              activeStyle={activeLinkSyle}
+            >
+              <li>{route.linkName}</li>
+            </NavLink>
+          ))}
         </ul>
       </Nav>
     </TopNavContainer>

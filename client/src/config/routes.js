@@ -8,24 +8,28 @@ export default [
   {
     path: "/",
     name: "HomePage",
+    linkName: "Works",
     component: Home,
     exact: true,
   },
   {
     path: "/education",
     name: "EducationPage",
+    linkName: "Education",
     component: Education,
     exact: false,
   },
   {
     path: "/about",
     name: "AboutPage",
+    linkName: "About",
     component: About,
     exact: false,
   },
   {
     path: "/community",
     name: "CommunityPage",
+    linkName: "Community",
     component: Community,
     exact: false,
   },
