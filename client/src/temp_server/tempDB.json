@@ -2,10 +2,11 @@
   "personalMetaData": {
     "firstName": "Hamed",
     "lastName": "Pour",
+    "title": "Junior Web Developer",
     "email": "hamed_k.pour@hotmail.com",
     "about": "Avid junior full-stack developer with a keen interested in lower level languages such as C++ and C. Currently studying toward a BSc in Computing and IT."
   },
-  "EducationMetaData": {
+  "educationMetaData": {
     "University": "The Open University",
     "degreeTitle": "BSc (Honours) Computing and IT",
     "publicProfileURL": "https://www.open.edu/openlearn/profiles/zx509384/my-ou-life",
