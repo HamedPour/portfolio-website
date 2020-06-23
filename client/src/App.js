@@ -23,7 +23,13 @@ function App() {
     return (
       <Route
         path={route.path}
-        render={(props) => <route.component {...props} routes={route.routes} />}
+        render={(props) => (
+          <route.component
+            {...props}
+            personalInfo={personalInfo}
+            routes={route.routes}
+          />
+        )}
       />
     );
   }
@@ -33,11 +39,13 @@ function App() {
       <header>
         <TopNav personalInfo={personalInfo} />
       </header>
-      <Switch>
-        {routes.map((route, i) => (
-          <RouteWithSubRoutes key={i} {...route} />
-        ))}
-      </Switch>
+      <main>
+        <Switch>
+          {routes.map((route, i) => (
+            <RouteWithSubRoutes key={i} {...route} />
+          ))}
+        </Switch>
+      </main>
     </div>
   );
 }

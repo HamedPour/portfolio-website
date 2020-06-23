@@ -8,7 +8,7 @@ export default [
   {
     path: "/",
     name: "HomePage",
-    linkName: "Works",
+    linkName: "Projects",
     component: Home,
     exact: true,
   },

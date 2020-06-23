@@ -1,10 +1,13 @@
 import React from "react";
 
-function Home() {
+// components
+import LandingPage from "../components/LandingPage/LandingPage";
+
+function Home({ personalInfo }) {
   return (
-    <div>
-      <h1>This is Home</h1>
-    </div>
+    <>
+      <LandingPage personalInfo={personalInfo} />
+    </>
   );
 }
 
