@@ -35,6 +35,18 @@
       "repoURL": "https://github.com/HamedPour/travel-site",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/travel-site/"
+    },
+    {
+      "title": "Old Website",
+      "repoURL": "https://github.com/HamedPour/Basics-done-wrong/settings",
+      "coverImage": "/langLogos/htmlLogo.jpg",
+      "websiteURL": "https://hamedpour.github.io/Basics-done-wrong/"
+    },
+    {
+      "title": "Lifespan Counter",
+      "repoURL": "https://github.com/HamedPour/lifespan-counter",
+      "coverImage": "/langLogos/vueLogo.jpg",
+      "websiteURL": ""
     }
   ]
 }

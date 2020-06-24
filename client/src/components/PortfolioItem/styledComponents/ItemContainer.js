@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export default styled.div`
-  border: 1px solid #f7df1e;
+  border: 1px solid rgba(247, 223, 30, 0.7);
   border-radius: 3%;
-  position: relative;
   margin: 40px;
-  padding: 0px 20px;
+  padding: 0px 20px 20px 20px;
   text-align: center;
-  cursor: pointer;
+  user-select: none;
+  transition: box-shadow 0.5s linear;
+
+  &:hover {
+    box-shadow: 2px 2px 4px #f7df1e;
+  }
 
   & h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     padding: 10px 0;
   }
@@ -21,7 +25,17 @@ export default styled.div`
     height: auto;
   }
 
-  & img:hover {
-    transform: scale(1.1);
+  & div {
+    margin-bottom: 7px;
+  }
+
+  & div a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  & div a:hover {
+    color: #f7df1e;
   }
 `;
