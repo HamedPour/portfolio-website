@@ -1,16 +1,27 @@
 import styled from "styled-components";
 
 export default styled.div`
-  background-image: url("${(props) => props.btImage}");
-  background-position: center;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  border-image: 30 round;
-  border: 2px solid rgba(0,0,0,0.1);
+  border: 1px solid #f7df1e;
   border-radius: 3%;
-  padding: 70px;
+  position: relative;
+  margin: 40px;
+  padding: 0px 20px;
+  text-align: center;
   cursor: pointer;
-  margin: 40px 40px;
-  max-height: 220px;
 
+  & h3 {
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding: 10px 0;
+  }
+
+  & img {
+    max-width: 170px;
+    width: 100%;
+    height: auto;
+  }
+
+  & img:hover {
+    transform: scale(1.1);
+  }
 `;

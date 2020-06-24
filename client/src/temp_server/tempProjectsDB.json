@@ -3,37 +3,37 @@
     {
       "title": "Island House",
       "repoURL": "https://github.com/HamedPour/Island-House",
-      "coverURL": "https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg",
+      "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "http://islandhouseholyisland.co.uk/"
     },
     {
       "title": "React Calculator",
       "repoURL": "https://github.com/HamedPour/react-calculator",
-      "coverURL": "https://www.technoscore.com/images/services/react-js-icon.png",
+      "coverImage": "/langLogos/reactLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/react-calculator/"
     },
     {
       "title": "Game of Life",
       "repoURL": "https://github.com/HamedPour/game-of-life",
-      "coverURL": "https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/6351/javascript-4cbc745b515cd6427fcb71cc8fbe1fc7.png",
+      "coverImage": "/langLogos/jsLogo.png",
       "websiteURL": "https://hamedpour.github.io/game-of-life/"
     },
     {
       "title": "Project Euler",
       "repoURL": "https://github.com/HamedPour/ProjectEuler",
-      "coverURL": "https://assets.exercism.io/tracks/cpp-bordered-turquoise.png",
+      "coverImage": "/langLogos/cppLogo.jpg",
       "websiteURL": ""
     },
     {
       "title": "Margaux Gallery",
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
-      "coverURL": "https://vuejs.org/images/logo.png",
+      "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": ""
     },
     {
       "title": "Clear View",
       "repoURL": "https://github.com/HamedPour/travel-site",
-      "coverURL": "https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/6351/javascript-4cbc745b515cd6427fcb71cc8fbe1fc7.png",
+      "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/travel-site/"
     }
   ]

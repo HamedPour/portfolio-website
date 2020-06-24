@@ -40,7 +40,7 @@ function LandingPage({ personalInfo }) {
               key={key}
               title={project.title}
               repoURL={project.repoURL}
-              coverImageURL={project.coverURL}
+              coverImage={project.coverImage}
               websiteURL={project.websiteURL}
             />
           );

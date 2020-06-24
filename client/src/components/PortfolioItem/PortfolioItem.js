@@ -5,8 +5,12 @@ import ItemContainer from "./styledComponents/ItemContainer";
 
 function PortfolioItem(props) {
   return (
-    <ItemContainer btImage={props.coverImageURL}>
-      <h4>{props.title}</h4>
+    <ItemContainer>
+      <h3>{props.title}</h3>
+      <img
+        src={process.env.PUBLIC_URL + props.coverImage}
+        alt={props.title + " image"}
+      />
     </ItemContainer>
   );
 }
