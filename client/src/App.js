@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     setPersonalInfo(db_data.personalMetaData);
-    setEducationInfo(db_data.EducationMetaData);
+    setEducationInfo(db_data.educationMetaData);
   }, []);
 
   function RouteWithSubRoutes(route) {
@@ -27,6 +27,7 @@ function App() {
           <route.component
             {...props}
             personalInfo={personalInfo}
+            educationInfo={educationInfo}
             routes={route.routes}
           />
         )}

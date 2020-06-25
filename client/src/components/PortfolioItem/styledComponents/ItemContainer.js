@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default styled.div`
   border: 1px solid rgba(247, 223, 30, 0.7);
   border-radius: 3%;
-  margin: 40px;
+  margin: 20px;
   padding: 0px 20px 20px 20px;
   text-align: center;
   user-select: none;

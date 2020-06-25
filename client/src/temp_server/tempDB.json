@@ -7,7 +7,7 @@
     "about": "Avid junior full-stack developer with a keen interested in lower level languages such as C++. Currently studying toward a BSc in Computing and IT."
   },
   "educationMetaData": {
-    "University": "The Open University",
+    "universityName": "The Open University",
     "degreeTitle": "BSc (Honours) Computing and IT",
     "publicProfileURL": "https://www.open.edu/openlearn/profiles/zx509384/my-ou-life",
     "modules": [
@@ -37,25 +37,25 @@
       },
       {
         "id": "5",
-        "moduleTitle": "Object-oriented Java programming (M250)",
+        "moduleTitle": "Managing IT: the why, the what and the how (TM254)",
         "moduleLevel": "2",
         "result": "Distinction"
       },
       {
         "id": "6",
-        "moduleTitle": "Algorithms, data structures and computabality (M269)",
+        "moduleTitle": "Object-oriented Java programming (M250)",
         "moduleLevel": "2",
         "result": "Distinction"
       },
       {
         "id": "7",
-        "moduleTitle": "Web technologies (TT284)",
+        "moduleTitle": "Algorithms, data structures and computabality (M269)",
         "moduleLevel": "2",
         "result": "Distinction"
       },
       {
         "id": "8",
-        "moduleTitle": "Managing IT: the why, the what and the how (TM254)",
+        "moduleTitle": "Web technologies (TT284)",
         "moduleLevel": "2",
         "result": "Distinction"
       }

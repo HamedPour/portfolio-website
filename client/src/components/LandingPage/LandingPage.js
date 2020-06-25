@@ -9,8 +9,8 @@ import projectsDB from "../../temp_server/tempProjectsDB.json";
 // styled-components
 import LandingPageContainer from "./styledComponents/LandingPageContainer";
 import IntroContainer from "./styledComponents/IntroContainer";
-import Title from "./styledComponents/Title";
-import SubTitle from "./styledComponents/SubTitle";
+import Title from "../Global/styledComponents/Title";
+import SubTitle from "../Global/styledComponents/SubTitle";
 import PortfolioContainer from "./styledComponents/PortfolioContainer";
 
 function LandingPage({ personalInfo }) {
@@ -24,7 +24,7 @@ function LandingPage({ personalInfo }) {
     <LandingPageContainer>
       <IntroContainer>
         <Title>
-          Hello!
+          Hi there!
           <br />
           I'm {personalInfo.firstName}
           <br />

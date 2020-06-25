@@ -1,11 +1,10 @@
 import React from "react";
 
-function Education() {
-  return (
-    <div>
-      <h1>Education page</h1>
-    </div>
-  );
+// components
+import EducationPage from "../components/EducationPage/EducationPage";
+
+function Education(props) {
+  return <EducationPage educationInfo={props.educationInfo} />;
 }
 
 export default Education;
