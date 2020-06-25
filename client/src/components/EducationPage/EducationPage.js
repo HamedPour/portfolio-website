@@ -34,9 +34,7 @@ function EducationPage({ educationInfo }) {
         </SubTitle>
       </IntroContainer>
       <ModulesContainer>
-        {modules.map((module, index) => {
-          return <UniModule module={module} key={index} />;
-        })}
+        <UniModule modules={modules} />
       </ModulesContainer>
     </EducationPageContainer>
   );

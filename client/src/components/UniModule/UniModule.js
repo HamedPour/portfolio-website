@@ -1,12 +1,11 @@
 import React from "react";
 
 // styled components
-import ModuleContainer from "./styledComponents/ModuleContainer";
 import Table from "./styledComponents/Table";
 
-function UniModule({ module }) {
+function UniModule({ modules }) {
   return (
-    <ModuleContainer>
+    <>
       <Table>
         <thead>
           <tr>
@@ -16,16 +15,20 @@ function UniModule({ module }) {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>{module.moduleTitle}</td>
-            <td>{module.moduleLevel}</td>
-            <td>
-              <i>{module.result}</i>
-            </td>
-          </tr>
+          {modules.map((module, index) => {
+            return (
+              <tr key={index}>
+                <td>{module.moduleTitle}</td>
+                <td>{module.moduleLevel}</td>
+                <td>
+                  <i>{module.result}</i>
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </Table>
-    </ModuleContainer>
+    </>
   );
 }
 
