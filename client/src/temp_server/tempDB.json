@@ -3,9 +3,37 @@
     "firstName": "Hamed",
     "lastName": "Pour",
     "title": "Web Developer",
-    "email": "hamed_k.pour@hotmail.com",
+    "profileImage": "/img/closeup.jpg",
+    "cvURL": "/#",
+    "emailAddress": "hamed_k.pour@hotmail.com",
     "about": "Avid junior full-stack developer with a keen interested in lower level languages such as C++. Currently studying toward a BSc in Computing and IT."
   },
+  "volunteering": [
+    {
+      "organisationName": "Code First: Girls",
+      "aboutOrganisation": "Code First Girls is a organisation dedicated to helping women develop in tech by providing free education opportunity. They have so far taught in excess of 14 thousand women how to code.",
+      "myRole": "I am a proud CFG volunteer instructor and have assisted the teaching of both Web Development and Python courses to students at Sussex University and online for the past ",
+      "serviceDuration": "3 terms",
+      "organisationURL": "https://codefirstgirls.org.uk/",
+      "coverImage": "/img/codingWomen.jpg"
+    },
+    {
+      "organisationName": "Childern of the Mekong",
+      "aboutOrganisation": " Children of the Mokong is a charitable organisation that fights child poverty and suffering in South-East Asia.",
+      "myRole": "I was a volunteer web developer helping to maintain and develop their UK branch website for ",
+      "serviceDuration": "several months",
+      "organisationURL": "https://www.childrenofthemekong.org/who-we-are/",
+      "coverImage": "/img/mekong.jpg"
+    },
+    {
+      "organisationName": "Sova",
+      "aboutOrganisation": "Sova is a charity that works in the heart of communities in England and Wales to help people steer clear of crime.",
+      "myRole": "I served as an Appropriate Adult responsible for supporting mentally vulnerable adults and children being detained or interviewed by police. I was involved with the AA scheme for around ",
+      "serviceDuration": "2 years",
+      "organisationURL": "https://www.linkedin.com/company/sova_2/about/",
+      "coverImage": "/img/sova.jpg"
+    }
+  ],
   "educationMetaData": {
     "universityName": "The Open University",
     "degreeTitle": "BSc (Honours) Computing and IT",

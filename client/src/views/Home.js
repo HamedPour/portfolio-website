@@ -4,11 +4,7 @@ import React from "react";
 import LandingPage from "../components/LandingPage/LandingPage";
 
 function Home({ personalInfo }) {
-  return (
-    <>
-      <LandingPage personalInfo={personalInfo} />
-    </>
-  );
+  return <LandingPage personalInfo={personalInfo} />;
 }
 
 export default Home;

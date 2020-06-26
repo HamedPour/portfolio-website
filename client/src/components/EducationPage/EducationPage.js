@@ -4,8 +4,8 @@ import React, { useState, useEffect } from "react";
 import UniModule from "../UniModule/UniModule";
 
 // styled components
-import EducationPageContainer from "./styledComponents/EducationPageContainer";
-import IntroContainer from "./styledComponents/IntroContainer";
+import EducationPageContainer from "../Global/styledComponents/PageContainer";
+import EducationIntroContainer from "./styledComponents/EducationIntroContainer";
 import ModulesContainer from "./styledComponents/ModulesContainer";
 import Title from "../Global/styledComponents/Title";
 import SubTitle from "../Global/styledComponents/SubTitle";
@@ -24,15 +24,27 @@ function EducationPage({ educationInfo }) {
 
   return (
     <EducationPageContainer>
-      <IntroContainer>
+      <EducationIntroContainer>
         <Title>{educationInfo.degreeTitle}</Title>
         <br />
         <SubTitle>
           I am currently studying towards my {educationInfo.degreeTitle} at{" "}
           {educationInfo.universityName}. You can see the list of my modules and
-          and grades here.
+          and their results here.
         </SubTitle>
-      </IntroContainer>
+        <br />
+        <SubTitle>
+          Please feel free to see my Open University{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={educationInfo.publicProfileURL}
+          >
+            public profile
+          </a>
+          .
+        </SubTitle>
+      </EducationIntroContainer>
       <ModulesContainer>
         <UniModule modules={modules} />
       </ModulesContainer>

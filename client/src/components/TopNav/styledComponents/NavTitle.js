@@ -10,4 +10,9 @@ export default styled.div`
     font-size: 0.9rem;
     font-weight: lighter;
   }
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
 `;

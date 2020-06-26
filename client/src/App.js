@@ -13,10 +13,12 @@ import routes from "./config/routes";
 function App() {
   const [personalInfo, setPersonalInfo] = useState({});
   const [educationInfo, setEducationInfo] = useState({});
+  const [volunteeringInfo, setVolunteeringInfo] = useState([]);
 
   useEffect(() => {
     setPersonalInfo(db_data.personalMetaData);
     setEducationInfo(db_data.educationMetaData);
+    setVolunteeringInfo(db_data.volunteering);
   }, []);
 
   function RouteWithSubRoutes(route) {
@@ -28,6 +30,7 @@ function App() {
             {...props}
             personalInfo={personalInfo}
             educationInfo={educationInfo}
+            volunteeringInfo={volunteeringInfo}
             routes={route.routes}
           />
         )}

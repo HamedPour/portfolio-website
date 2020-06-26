@@ -1,11 +1,10 @@
 import React from "react";
 
-function Community() {
-  return (
-    <div>
-      <h1>Community Page</h1>
-    </div>
-  );
+// components
+import CommunityPage from "../components/CommunityPage/CommunityPage";
+
+function Community(props) {
+  return <CommunityPage volunteeringInfo={props.volunteeringInfo} />;
 }
 
 export default Community;

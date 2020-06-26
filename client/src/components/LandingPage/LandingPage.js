@@ -7,8 +7,8 @@ import PortfolioItem from "../PortfolioItem/PortfolioItem";
 import projectsDB from "../../temp_server/tempProjectsDB.json";
 
 // styled-components
-import LandingPageContainer from "./styledComponents/LandingPageContainer";
-import IntroContainer from "./styledComponents/IntroContainer";
+import LandingPageContainer from "../Global/styledComponents/PageContainer";
+import LandingIntroContainer from "../Global/styledComponents/IntroContainer";
 import Title from "../Global/styledComponents/Title";
 import SubTitle from "../Global/styledComponents/SubTitle";
 import PortfolioContainer from "./styledComponents/PortfolioContainer";
@@ -22,9 +22,9 @@ function LandingPage({ personalInfo }) {
 
   return (
     <LandingPageContainer>
-      <IntroContainer>
+      <LandingIntroContainer>
         <Title>
-          Hi there!
+          Hi There!
           <br />
           I'm {personalInfo.firstName}
           <br />
@@ -32,7 +32,7 @@ function LandingPage({ personalInfo }) {
         </Title>
         <br />
         <SubTitle>{personalInfo.about}</SubTitle>
-      </IntroContainer>
+      </LandingIntroContainer>
       <PortfolioContainer>
         {projects.map((project, key) => {
           return (

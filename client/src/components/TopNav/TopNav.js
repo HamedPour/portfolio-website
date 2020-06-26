@@ -17,10 +17,12 @@ function TopNav({ personalInfo }) {
   return (
     <TopNavContainer>
       <NavTitle>
-        <h1>
-          {personalInfo.firstName} {personalInfo.lastName}
-        </h1>
-        <span>{personalInfo.title}</span>
+        <NavLink to="/">
+          <h1>
+            {personalInfo.firstName} {personalInfo.lastName}
+          </h1>
+        </NavLink>
+        <span>{"< " + personalInfo.title + " />"}</span>
       </NavTitle>
       <Spacer />
       <Nav>

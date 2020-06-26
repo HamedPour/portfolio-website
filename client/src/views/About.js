@@ -1,10 +1,15 @@
 import React from "react";
 
-function About() {
+// components
+import AboutPage from "../components/AboutPage/AboutPage";
+
+function About({ personalInfo }) {
   return (
-    <div>
-      <h1>About Page</h1>
-    </div>
+    <AboutPage
+      profileImage={personalInfo.profileImage}
+      emailAddress={personalInfo.emailAddress}
+      cvURL={personalInfo.cvURL}
+    />
   );
 }
 
