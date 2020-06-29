@@ -6,6 +6,9 @@ import PortfolioItem from "../PortfolioItem/PortfolioItem";
 // fake database
 import projectsDB from "../../temp_server/tempProjectsDB.json";
 
+// components
+import Modal from "../Modal/Modal";
+
 // styled-components
 import LandingPageContainer from "../Global/styledComponents/PageContainer";
 import LandingIntroContainer from "../Global/styledComponents/IntroContainer";
@@ -15,10 +18,20 @@ import PortfolioContainer from "./styledComponents/PortfolioContainer";
 
 function LandingPage({ personalInfo }) {
   const [projects, setProjects] = useState([]);
+  const [toggleModal, setToggleModal] = useState(false);
+  const [modalData, setModalData] = useState();
+  const mydata = {
+    title: "GET FUCKED PROPS!",
+  };
 
   useEffect(() => {
     setProjects(projectsDB.projects);
   }, []);
+
+  function activateToggleModel(data) {
+    setModalData(data);
+    setToggleModal(!toggleModal);
+  }
 
   return (
     <LandingPageContainer>
@@ -32,6 +45,9 @@ function LandingPage({ personalInfo }) {
         </Title>
         <br />
         <SubTitle>{personalInfo.about}</SubTitle>
+        {toggleModal ? (
+          <Modal title={modalData.title} details={modalData.details} />
+        ) : null}
       </LandingIntroContainer>
       <PortfolioContainer>
         {projects.map((project, key) => {
@@ -42,6 +58,8 @@ function LandingPage({ personalInfo }) {
               repoURL={project.repoURL}
               coverImage={project.coverImage}
               websiteURL={project.websiteURL}
+              details={project.details}
+              toggleModal={activateToggleModel}
             />
           );
         })}

@@ -4,8 +4,24 @@ import React from "react";
 import ItemContainer from "./styledComponents/ItemContainer";
 
 function PortfolioItem(props) {
+  function openModal(props) {
+    const payload = {
+      title: props.title,
+      details: props.details,
+    };
+    props.toggleModal(payload);
+  }
+
+  function closeModal() {
+    console.log("close");
+    props.toggleModal(null);
+  }
+
   return (
-    <ItemContainer>
+    <ItemContainer
+      onMouseEnter={() => openModal(props)}
+      onMouseLeave={closeModal}
+    >
       <h3>{props.title}</h3>
       <img
         src={process.env.PUBLIC_URL + props.coverImage}

@@ -1,48 +1,57 @@
 {
   "projects": [
     {
+      "id": "1",
       "title": "Island House",
       "repoURL": "https://github.com/HamedPour/Island-House",
       "coverImage": "/langLogos/htmlLogo.jpg",
-      "websiteURL": "http://islandhouseholyisland.co.uk/"
+      "websiteURL": "http://islandhouseholyisland.co.uk/",
+      "details": "This repos leads to a website I designed and developed for a client. It your standard multipage website created with HTML5, SCSS, JavaScript and a bit of jQuery. It was an excellent learning oppertunity and the client loved it all at the end."
     },
     {
+      "id": "2",
       "title": "React Calculator",
       "repoURL": "https://github.com/HamedPour/react-calculator",
       "coverImage": "/langLogos/reactLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/react-calculator/"
     },
     {
+      "id": "3",
       "title": "Game of Life",
       "repoURL": "https://github.com/HamedPour/game-of-life",
       "coverImage": "/langLogos/jsLogo.png",
       "websiteURL": "https://hamedpour.github.io/game-of-life/"
     },
     {
+      "id": "4",
       "title": "Project Euler",
       "repoURL": "https://github.com/HamedPour/ProjectEuler",
       "coverImage": "/langLogos/cppLogo.jpg",
       "websiteURL": ""
     },
     {
+      "id": "5",
       "title": "Margaux Gallery",
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
       "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": ""
     },
     {
+      "id": "6",
       "title": "Clear View",
       "repoURL": "https://github.com/HamedPour/travel-site",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/travel-site/"
     },
     {
+      "id": "7",
       "title": "Old Website",
       "repoURL": "https://github.com/HamedPour/Basics-done-wrong/settings",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/Basics-done-wrong/"
     },
     {
+      "id": "8",
       "title": "Lifespan Counter",
       "repoURL": "https://github.com/HamedPour/lifespan-counter",
       "coverImage": "/langLogos/vueLogo.jpg",
