@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+
+// components
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import NavModal from "./NavModal/NavModal";
 
 //comfig
 import routes from "./../../config/routes";
@@ -11,11 +15,24 @@ import NavTitle from "./styledComponents/NavTitle";
 import Spacer from "./styledComponents/Spacer";
 
 function TopNav({ personalInfo }) {
+  const [isVisible, setIsVisible] = useState(false);
   const activeLinkSyle = {
     fontWeight: "bold",
   };
+
+  function toggleNavModal() {
+    setIsVisible(!isVisible);
+  }
+
+  function toggleModalOff() {
+    toggleNavModal();
+  }
+
   return (
     <TopNavContainer>
+      {isVisible ? (
+        <NavModal toggleModalOff={toggleModalOff} routes={routes} />
+      ) : null}
       <NavTitle>
         <NavLink to="/">
           <h1>
@@ -39,6 +56,9 @@ function TopNav({ personalInfo }) {
           ))}
         </ul>
       </Nav>
+      <div onClick={toggleNavModal}>
+        <BurgerMenu />
+      </div>
     </TopNavContainer>
   );
 }

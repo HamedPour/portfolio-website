@@ -2,7 +2,6 @@ import styled from "styled-components";
 import breakpoints from "../../../config/breakpoints";
 
 export default styled.div`
-  border: 2px solid green;
   display: flex;
   margin: 50px 50px 60px 40px;
 
