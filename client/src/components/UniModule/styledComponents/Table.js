@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../../config/breakpoints";
 
 export default styled.table`
   border-collapse: collapse;
@@ -10,6 +11,10 @@ export default styled.table`
     text-align: left;
     font-size: 1.4rem;
     padding-bottom: 10px;
+    @media only screen and (max-width: ${breakpoints.mediumScreen}) {
+      font-size: 1.2rem;
+      text-align: center;
+    }
   }
 
   & thead th:nth-child(3) {

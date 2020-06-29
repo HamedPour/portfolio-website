@@ -9,7 +9,7 @@ function UniModule({ modules }) {
       <Table>
         <thead>
           <tr>
-            <th>Module Name</th>
+            <th>Module</th>
             <th>Level</th>
             <th>Result</th>
           </tr>

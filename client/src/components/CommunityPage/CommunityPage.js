@@ -1,7 +1,7 @@
 import React from "react";
 
 // styled components
-import CommunityPageContainer from "../Global/styledComponents/PageContainer";
+import CommunityPageContainer from "./styledComponents/CommunityPageContainer";
 import CommunityIntroContainer from "../Global/styledComponents/IntroContainer";
 import Title from "../Global/styledComponents/Title";
 import SubTitle from "../Global/styledComponents/SubTitle";

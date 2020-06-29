@@ -1,8 +1,14 @@
 import styled from "styled-components";
+import breakpoints from "../../../config/breakpoints";
 
 export default styled.div`
+  border: 2px solid green;
   display: flex;
-  margin: 50px 40px;
+  margin: 50px 50px 60px 40px;
+
+  @media only screen and (max-width: ${breakpoints.mediumScreen2}) {
+    display: block;
+  }
 
   & div {
     margin-left: 20px;
