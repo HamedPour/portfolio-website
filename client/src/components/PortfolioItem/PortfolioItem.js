@@ -9,12 +9,11 @@ function PortfolioItem(props) {
       title: props.title,
       details: props.details,
     };
-    props.toggleModal(payload);
+    props.openModal(payload);
   }
 
   function closeModal() {
-    console.log("close");
-    props.toggleModal(null);
+    props.closeModal();
   }
 
   return (

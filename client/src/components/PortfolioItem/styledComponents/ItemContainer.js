@@ -11,6 +11,10 @@ export default styled.div`
 
   &:hover {
     box-shadow: 2px 2px 4px #f7df1e;
+
+    & div {
+      text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+    }
   }
 
   & h3 {
@@ -36,6 +40,6 @@ export default styled.div`
   }
 
   & div a:hover {
-    color: #f7df1e;
+    text-decoration: underline;
   }
 `;

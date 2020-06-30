@@ -6,56 +6,63 @@
       "repoURL": "https://github.com/HamedPour/Island-House",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "http://islandhouseholyisland.co.uk/",
-      "details": "This repos leads to a website I designed and developed for a client. It your standard multipage website created with HTML5, SCSS, JavaScript and a bit of jQuery. It was an excellent learning oppertunity and the client loved it all at the end."
+      "details": "This repos leads to a website I designed and developed for a client. It is your standard multipage website created with HTML5, SCSS, JavaScript and a bit of jQuery. It was an excellent learning oppertunity and the client loved it."
     },
     {
       "id": "2",
       "title": "React Calculator",
       "repoURL": "https://github.com/HamedPour/react-calculator",
       "coverImage": "/langLogos/reactLogo.jpg",
-      "websiteURL": "https://hamedpour.github.io/react-calculator/"
+      "websiteURL": "https://hamedpour.github.io/react-calculator/",
+      "details": "This is a fun little calculator created with React. I had not appreacated how neuance creating one can be. It was a very fun experience."
     },
     {
       "id": "3",
       "title": "Game of Life",
       "repoURL": "https://github.com/HamedPour/game-of-life",
       "coverImage": "/langLogos/jsLogo.png",
-      "websiteURL": "https://hamedpour.github.io/game-of-life/"
+      "websiteURL": "https://hamedpour.github.io/game-of-life/",
+      "details": "This is Conway's Game of Life created in pure JavaScript and Canvas. It's suprisingly addictive to watch."
     },
     {
       "id": "4",
       "title": "Project Euler",
       "repoURL": "https://github.com/HamedPour/ProjectEuler",
       "coverImage": "/langLogos/cppLogo.jpg",
-      "websiteURL": ""
+      "websiteURL": "",
+      "details": "This repo is part of an on going project I have been doing with the WB boys. We are focusing on learning more mathematics while also completing Project Euler challanges. I have personally decided to code it in C++ to improve my lower level programming skills."
     },
     {
       "id": "5",
       "title": "Margaux Gallery",
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
       "coverImage": "/langLogos/vueLogo.jpg",
-      "websiteURL": ""
+      "websiteURL": "",
+      "details": "This is a gallery website I made using Vue.js and Vuetify. I can't emphasise enough how pleanet working with Vue is. For the database I used Firebase which is also a very user friendly noSql database. I sadly had to bring the website down for now due to a range of dependency vualnerablities."
     },
     {
       "id": "6",
       "title": "Clear View",
       "repoURL": "https://github.com/HamedPour/travel-site",
       "coverImage": "/langLogos/htmlLogo.jpg",
-      "websiteURL": "https://hamedpour.github.io/travel-site/"
+      "websiteURL": "https://hamedpour.github.io/travel-site/",
+      "details": "This is one of the first websites I ever made using HTML/CSS/JS. It's a mock travel website. The leve of nostalgia here is unreal"
     },
     {
       "id": "7",
       "title": "Old Website",
       "repoURL": "https://github.com/HamedPour/Basics-done-wrong/settings",
       "coverImage": "/langLogos/htmlLogo.jpg",
-      "websiteURL": "https://hamedpour.github.io/Basics-done-wrong/"
+      "websiteURL": "https://hamedpour.github.io/Basics-done-wrong/",
+      "details": "This was my first attempt at making a personal website. I ended up not liking the desgin at the end and decided to bring it down. "
     },
     {
       "id": "8",
       "title": "Lifespan Counter",
       "repoURL": "https://github.com/HamedPour/lifespan-counter",
       "coverImage": "/langLogos/vueLogo.jpg",
-      "websiteURL": ""
+      "websiteURL": "",
+      "details": "This was a little counter app I made the calculates a person's remaining lifespan. I used Vue.js and plain CSS and it turned out rather nice."
     }
   ]
 }

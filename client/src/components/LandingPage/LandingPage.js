@@ -20,17 +20,18 @@ function LandingPage({ personalInfo }) {
   const [projects, setProjects] = useState([]);
   const [toggleModal, setToggleModal] = useState(false);
   const [modalData, setModalData] = useState();
-  const mydata = {
-    title: "GET FUCKED PROPS!",
-  };
 
   useEffect(() => {
     setProjects(projectsDB.projects);
   }, []);
 
-  function activateToggleModel(data) {
+  function activateModel(data) {
     setModalData(data);
-    setToggleModal(!toggleModal);
+    setToggleModal(true);
+  }
+
+  function deActivateModel() {
+    setToggleModal(false);
   }
 
   return (
@@ -59,7 +60,8 @@ function LandingPage({ personalInfo }) {
               coverImage={project.coverImage}
               websiteURL={project.websiteURL}
               details={project.details}
-              toggleModal={activateToggleModel}
+              openModal={activateModel}
+              closeModal={deActivateModel}
             />
           );
         })}
