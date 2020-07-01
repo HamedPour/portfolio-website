@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 // temp database data
 import db_data from "./temp_server/tempDB.json";
@@ -45,7 +45,6 @@ function App() {
       </header>
       <main>
         <Switch>
-          <Redirect from="/portfolio-website" to="/" />
           {routes.map((route, i) => (
             <RouteWithSubRoutes key={i} {...route} />
           ))}

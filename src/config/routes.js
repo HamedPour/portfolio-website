@@ -6,7 +6,7 @@ import Community from "../views/Community";
 
 export default [
   {
-    path: "/",
+    path: "/portfolio-website",
     name: "HomePage",
     linkName: "Projects",
     component: Home,

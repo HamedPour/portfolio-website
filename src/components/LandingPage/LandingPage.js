@@ -46,6 +46,18 @@ function LandingPage({ personalInfo }) {
         </Title>
         <br />
         <SubTitle>{personalInfo.about}</SubTitle>
+        <br />
+        <SubTitle>
+          To see a full list of my <i>Github</i> repos click{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={personalInfo.githubURL}
+          >
+            here
+          </a>
+          .
+        </SubTitle>
         {toggleModal ? (
           <Modal title={modalData.title} details={modalData.details} />
         ) : null}

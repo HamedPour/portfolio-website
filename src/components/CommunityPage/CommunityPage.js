@@ -10,17 +10,16 @@ import CommunityContentContainer from "./styledComponents/CommunityContentContai
 // components
 import Card from "../Card/Card";
 
+const subTitleText =
+  "I have always been a firm believer of giving back to my community. Throughout my life I have tried to become involved with different charity organisations. Here you can see a short list of some of the most recent organisations.";
+
 function CommunityPage({ volunteeringInfo }) {
   return (
     <CommunityPageContainer>
       <CommunityIntroContainer>
         <Title>Community</Title>
         <br />
-        <SubTitle>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          auctor venenatis, feugiat in neque. Sed sed lacus venenatis,
-          consectetur est condimentum, malesuada
-        </SubTitle>
+        <SubTitle>{subTitleText}</SubTitle>
       </CommunityIntroContainer>
       <CommunityContentContainer>
         {volunteeringInfo.map((item, index) => {

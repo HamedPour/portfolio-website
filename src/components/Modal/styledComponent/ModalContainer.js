@@ -5,7 +5,7 @@ export default styled.div`
   background-color: whitesmoke;
   border-radius: 3%;
   position: relative;
-  top: 155px;
+  top: 100px;
   max-width: 250px;
   padding: 20px;
 

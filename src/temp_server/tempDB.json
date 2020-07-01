@@ -3,19 +3,20 @@
     "firstName": "Hamed",
     "lastName": "Pour",
     "title": "Web Developer",
-    "profileImage": "/img/closeup.jpg",
+    "profileImage": "/portfolio-website/images/closeup.jpg",
     "cvURL": "/#",
+    "githubURL": "https://github.com/HamedPour?tab=repositories",
     "emailAddress": "hamed_k.pour@hotmail.com",
-    "about": "Junior full-stack developer with a keen interested in all things web related as well as lower level languages such as C++. Currently studying toward a BSc in Computing and IT."
+    "about": "Junior full-stack developer with a keen interest in all things web related as well as lower level languages such as C++. Currently studying toward a BSc in Computing and IT."
   },
   "volunteering": [
     {
       "organisationName": "Code First: Girls",
       "aboutOrganisation": "Code First Girls is a organisation dedicated to helping women develop in tech by providing free education opportunity. They have so far taught in excess of 14 thousand women how to code.",
-      "myRole": "I am a proud CFG volunteer instructor and have assisted the teaching of both Web Development and Python courses to students at Sussex University and online for the past ",
-      "serviceDuration": "3 terms",
+      "myRole": "I am a CF:Girls volunteer instructor and I assist in the teaching of both Web Development and Python courses to students at Sussex University and students online. I have been involved with GF:Girls for the past ",
+      "serviceDuration": "3 university terms",
       "organisationURL": "https://codefirstgirls.org.uk/",
-      "coverImage": "/img/codingWomen.jpg"
+      "coverImage": "/images/codingWomen.jpg"
     },
     {
       "organisationName": "Childern of the Mekong",
@@ -23,15 +24,15 @@
       "myRole": "I was a volunteer web developer helping to maintain and develop their UK branch website for ",
       "serviceDuration": "several months",
       "organisationURL": "https://www.childrenofthemekong.org/who-we-are/",
-      "coverImage": "/img/mekong.jpg"
+      "coverImage": "/images/mekong.jpg"
     },
     {
       "organisationName": "Sova",
       "aboutOrganisation": "Sova is a charity that works in the heart of communities in England and Wales to help people steer clear of crime.",
-      "myRole": "I served as an Appropriate Adult responsible for supporting mentally vulnerable adults and children being detained or interviewed by police. I was involved with the AA scheme for around ",
+      "myRole": "I was an Appropriate Adult responsible for supporting mentally vulnerable adults and children being detained or interviewed by police. I was involved with the AA scheme for over ",
       "serviceDuration": "2 years",
       "organisationURL": "https://www.linkedin.com/company/sova_2/about/",
-      "coverImage": "/img/sova.jpg"
+      "coverImage": "/images/sova.jpg"
     }
   ],
   "educationMetaData": {
