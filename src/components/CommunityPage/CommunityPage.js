@@ -11,7 +11,7 @@ import CommunityContentContainer from "./styledComponents/CommunityContentContai
 import Card from "../Card/Card";
 
 const subTitleText =
-  "I have always been a firm believer of giving back to my community. Throughout my life I have tried to become involved with different charity organisations. Here you can see a short list of some of the most recent organisations.";
+  "Throughout my life I have always tried to become involved with different organisations where I can offer skills or support. Here you can see a short list of some of the most recent and relevant.";
 
 function CommunityPage({ volunteeringInfo }) {
   return (

@@ -6,7 +6,7 @@
       "repoURL": "https://github.com/HamedPour/Island-House",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "http://islandhouseholyisland.co.uk/",
-      "details": "This is a website I designed and developed for a client. It is a multipage website created using HTML5, SCSS, JavaScript and a bit of jQuery. I learned a lot while making it and the client was very happy with the result."
+      "details": "This is a multi-page, custom-designed website developed for a small business client. I utilised HTML5, SCSS, JavaScript and a splash of jQuery. I learned a lot from this project and the client was very happy with the result."
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "repoURL": "https://github.com/HamedPour/react-calculator",
       "coverImage": "/langLogos/reactLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/react-calculator/",
-      "details": "This is a fun little calculator app created using React. I learned a lot about proper state management while developing this app. It was also a very fun experience."
+      "details": "This is a fun little calculator app created using React, learning a lot about proper state management along the way."
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "repoURL": "https://github.com/HamedPour/game-of-life",
       "coverImage": "/langLogos/jsLogo.png",
       "websiteURL": "https://hamedpour.github.io/game-of-life/",
-      "details": "This is Conway's Game of Life created using vanilla JavaScript and HTML Canvas. It's surprisingly addictive to watch. Don’t believe me! Go on click on the live preview."
+      "details": "This is Conway's Game of Life, created using vanilla JavaScript and HTML Canvas. It's surprisingly addictive to watch - click on the live preview to see for yourself."
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "repoURL": "https://github.com/HamedPour/ProjectEuler",
       "coverImage": "/langLogos/cppLogo.jpg",
       "websiteURL": "",
-      "details": "This repo is part of an on going project I have been doing with the WB[Collective] boys. We are focusing on learning more mathematics while also completing Project Euler challenges. I have personally decided to code it in C++ to improve my lower level programming skills."
+      "details": "This repository is part of an ongoing project with the WB[Collective] team. I am focussing on learning more mathematics while also completing Project Euler challenges. I have personally decided to code it in C++ to improve my lower level programming skills."
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
       "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": "",
-      "details": "This is a gallery website I made using Vue.js and Vuetify.js. I can't emphasise enough how pleasant it is working with Vue. For the database I used Firebase which is a very intuitive noSql database. I sadly had to bring the website down for now due to a range of outdated dependencies."
+      "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasis enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "repoURL": "https://github.com/HamedPour/travel-site",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/travel-site/",
-      "details": "This is one of the first websites I ever made using HTML, CSS and JavaScript. It's a mock travel website. The level of nostalgia for me here is unreal"
+      "details": "This website is one of the first I ever made using HTML, CSS and JavaScript. It is a mock travel website and never fails to make me feel sentimental for my earliest days of programming."
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "repoURL": "https://github.com/HamedPour/Basics-done-wrong/settings",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "https://hamedpour.github.io/Basics-done-wrong/",
-      "details": "This was my first attempt at making a personal website. Despite it working perfectly fine I ended up not liking the design very much."
+      "details": "This was my very first attempt at making a personal website. Despite its working functionality, the design is now a bit outdated!"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "repoURL": "https://github.com/HamedPour/lifespan-counter",
       "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": "",
-      "details": "This was a little counter app I made using Vue.js that calculates a person's remaining lifespan. It turned out rather nice at the end for an app that only took a few hours to make."
+      "details": "This counter app was made using Vue.js to calculate an individual’s predicted remaining lifespan. For a quick project of a few hours, I found the output rather satisfying."
     }
   ]
 }

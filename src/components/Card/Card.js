@@ -25,7 +25,7 @@ function Card({
         <p>{myRole + duration}</p>
         <br />
         <span>
-          learn more about<a href={organisationURL}> {title}</a>.
+          Learn more about<a href={organisationURL}> {title}</a>.
         </span>
       </div>
     </CardContainer>

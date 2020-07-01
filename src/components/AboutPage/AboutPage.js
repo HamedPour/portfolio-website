@@ -9,11 +9,11 @@ import AboutContentContainer from "./styledComponents/AboutContentContainer";
 
 function AboutPage({ profileImage, emailAddress, cvURL }) {
   const headingText =
-    "I am a creator and a tinkerer. I like dissembling code and seeing how it works. There is always something fun to learn.";
+    "I am a creator and an avid learner. I like dissembling code and seeing how it works. There is always something new and exciting to learn.";
   const subHeadingText =
-    'I come from an academic background. I have an MA in English Literature and an MA in International Criminology from the university of Sheffield. Before becoming a programmer I was a teacher for the better part of a decade. I started my coding journey when my friend Mart handed me his copy of "Teach yourself C++ in 21 days". I didn’t understand a word of it but I was forever hooked. I started my development journey in earnest programming in Python while I was in a little hostel in Istanbul. Later that year I wrote my first JavaScript program in Copenhagen. There was no stopping from there ... ';
+    'I have an academic background in criminology, achieving my MA fom the University of Sheffield. During this time I was already interested in technology and wrote my MA dissertation on cyber security. Before programming I was also a teacher for the better part of a decade. I started my coding journey when one of my friends handed me his copy of "Teach yourself C++ in 21 days". I didn’t understand a word of it but from then on I have been completely hooked. I started my development journey in earnest programming in Python while I was in a little hostel in Istanbul. Later that year I wrote my first JavaScript program in Copenhagen. There was no stopping from there ... ';
   const subTitleText =
-    "Hello again! Let me introduce you to my face. As you can see I was having a bad hair day in that shot. However, you can see the wonderful fields of Hassocks behind me. I highly recommand a visit whenever you get the chance.";
+    "Hi again! Here is a picture of my face. When I've spent too many hours behind the screen, I like to escape to the local fields of Sussex to relax and remind myself that the sun still exists.";
 
   return (
     <AboutPageContainer>

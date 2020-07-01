@@ -48,7 +48,7 @@ function LandingPage({ personalInfo }) {
         <SubTitle>{personalInfo.about}</SubTitle>
         <br />
         <SubTitle>
-          To see a full list of my <i>Github</i> repos click{" "}
+          To see a full list of my <i>Github</i> repositories click{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
