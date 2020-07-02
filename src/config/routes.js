@@ -3,6 +3,7 @@ import Home from "../views/Home";
 import About from "../views/About";
 import Education from "../views/Education";
 import Community from "../views/Community";
+import Page404 from "../views/Page404";
 
 export default [
   {
@@ -32,5 +33,9 @@ export default [
     linkName: "Community",
     component: Community,
     exact: false,
+  },
+  {
+    path: "",
+    component: Page404,
   },
 ];
