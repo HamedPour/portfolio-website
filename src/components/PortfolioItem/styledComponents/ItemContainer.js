@@ -13,7 +13,7 @@ export default styled.div`
     box-shadow: 2px 2px 4px #f7df1e;
 
     & div {
-      text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+      text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
     }
   }
 

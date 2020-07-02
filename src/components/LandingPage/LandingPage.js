@@ -37,7 +37,6 @@ function LandingPage({ personalInfo }) {
      */
     const screenWidth =
       window.innerWidth || document.documentElement.clientWidth;
-    console.log(screenWidth);
     const breakpoint = parseInt(breakpoints.mediumScreen.split("px")[0]);
     return screenWidth < breakpoint;
   }
