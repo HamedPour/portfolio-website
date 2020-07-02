@@ -6,6 +6,7 @@ export default styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 30px;
 
   & h4 {
     margin-top: 90px;

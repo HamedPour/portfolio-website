@@ -13,7 +13,6 @@ export default styled.table`
     padding-bottom: 10px;
     @media only screen and (max-width: ${breakpoints.mediumScreen}) {
       font-size: 1.2rem;
-      text-align: center;
     }
   }
 
@@ -33,5 +32,9 @@ export default styled.table`
     font-size: 1.6rem;
     padding: 20px 0px;
     width: 90%;
+    @media only screen and (max-width: ${breakpoints.mediumScreen2}) {
+      font-size: 1.2rem;
+      text-align: left;
+    }
   }
 `;

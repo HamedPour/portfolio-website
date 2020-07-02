@@ -5,7 +5,7 @@ export default styled.div`
   min-height: 80vh;
   display: flex;
 
-  @media only screen and (max-width: ${breakpoints.smallScreen}) {
+  @media only screen and (max-width: ${breakpoints.mediumScreen}) {
     flex-direction: column;
     text-align: center;
     align-items: center;

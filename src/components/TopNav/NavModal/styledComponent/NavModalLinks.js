@@ -10,8 +10,12 @@ export default styled.nav`
 
   & a {
     text-decoration: none;
-    font-size: 1.5rem;
-    text-align: center;
     color: inherit;
+  }
+
+  & a li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 7px 0;
   }
 `;

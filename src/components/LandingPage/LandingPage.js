@@ -9,6 +9,9 @@ import projectsDB from "../../temp_server/tempProjectsDB.json";
 // components
 import Modal from "../Modal/Modal";
 
+// config
+import breakpoints from "../../config/breakpoints";
+
 // styled-components
 import LandingPageContainer from "../Global/styledComponents/PageContainer";
 import LandingIntroContainer from "../Global/styledComponents/IntroContainer";
@@ -25,7 +28,25 @@ function LandingPage({ personalInfo }) {
     setProjects(projectsDB.projects);
   }, []);
 
+  function shouldModalActivate() {
+    /**
+     * function checks inner width of current device screen and compares
+     * it with the medium breakpoint set by config.
+     * If current device screen is smaller than config breakpoint the function
+     * reutrns true.
+     */
+    const screenWidth =
+      window.innerWidth || document.documentElement.clientWidth;
+    console.log(screenWidth);
+    const breakpoint = parseInt(breakpoints.mediumScreen.split("px")[0]);
+    return screenWidth < breakpoint;
+  }
+
   function activateModel(data) {
+    if (shouldModalActivate()) {
+      // the screen is too small for the modal to activate - abort
+      return;
+    }
     setModalData(data);
     setToggleModal(true);
   }
