@@ -35,7 +35,7 @@ export default [
     exact: false,
   },
   {
-    path: "",
+    path: "*",
     component: Page404,
   },
 ];

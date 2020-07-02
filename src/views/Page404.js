@@ -2,7 +2,7 @@ import React from "react";
 
 function Page404() {
   const container404 = {
-    width: "100vw",
+    width: "100%",
     height: "70vh",
     display: "flex",
     flexDirection: "column",
