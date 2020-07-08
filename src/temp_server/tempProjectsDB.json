@@ -63,6 +63,14 @@
       "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": "",
       "details": "This counter app was made using Vue.js to calculate an individual’s predicted remaining lifespan. For a quick project of a few hours, I found the output rather satisfying."
+    },
+    {
+      "id": "9",
+      "title": "Pairs Game",
+      "repoURL": "https://github.com/HamedPour/pairs-game",
+      "coverImage": "/langLogos/jsLogo.png",
+      "websiteURL": "https://hamedpour.github.io/pairs-game/",
+      "details": "This is a little match the pairs game I made using JS. Give it a shot if you have a few minutes and see if you can beat my 45 clicks win"
     }
   ]
 }
