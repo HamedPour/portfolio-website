@@ -71,6 +71,14 @@
       "coverImage": "/langLogos/jsLogo.png",
       "websiteURL": "https://hamedpour.github.io/pairs-game/",
       "details": "This is a little match the pairs game I made using JS. Give it a shot if you have a few minutes and see if you can beat my 45 clicks win"
+    },
+    {
+      "id": "10",
+      "title": "Ecommerce",
+      "repoURL": "https://github.com/HamedPour/ecommerce-node",
+      "coverImage": "/langLogos/nodeLogo.jpg",
+      "websiteURL": "",
+      "details": "This is an e-commerce node back-end application I started developing using express, Mongoose and handlebars. The code is messy and unmodulated and the website not very optimised with unacceptable levels of lag. This was more a fun activity for me in order to see how long it would take to prototype an e-commerce website."
     }
   ]
 }

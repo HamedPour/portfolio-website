@@ -3,7 +3,7 @@ import breakpoints from "../../../config/breakpoints";
 
 export default styled.div`
   display: flex;
-  margin: 50px 50px 60px 40px;
+  margin: 50px 50px 0px 40px;
 
   @media only screen and (max-width: ${breakpoints.mediumScreen2}) {
     display: block;

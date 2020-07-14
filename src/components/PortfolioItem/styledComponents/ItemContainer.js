@@ -3,8 +3,9 @@ import styled from "styled-components";
 export default styled.div`
   border: 1px solid rgba(247, 223, 30, 0.7);
   border-radius: 3%;
-  margin: 20px;
-  padding: 0px 20px 20px 20px;
+  width: 230px;
+  margin: 10px;
+  padding: 0px 20px 0px 20px;
   text-align: center;
   user-select: none;
   transition: box-shadow 0.5s linear;

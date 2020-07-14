@@ -42,8 +42,8 @@ function TopNav({ personalInfo }) {
         <span>{"< " + personalInfo.title + " />"}</span>
       </NavTitle>
       <img
-        style={{ width: "90px" }}
-        src="https://namic.sg/wp-content/uploads/2018/05/Icon_Work-In-Progress.png"
+        style={{ width: "80px" }}
+        src={process.env.PUBLIC_URL + "/images/WIP.jpg"}
         alt="work in progress"
       />
       <Spacer />
