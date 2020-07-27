@@ -34,11 +34,11 @@
     },
     {
       "id": "5",
-      "title": "Margaux Gallery",
-      "repoURL": "https://github.com/HamedPour/margaux-gallery",
-      "coverImage": "/langLogos/vueLogo.jpg",
-      "websiteURL": "",
-      "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasis enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
+      "title": "ToDo App (PERN)",
+      "repoURL": "https://github.com/HamedPour/PERN-todoApp",
+      "coverImage": "/langLogos/PERN.png",
+      "websiteURL": "https://pern-todo-app-hamed.herokuapp.com/",
+      "details": "This is a fullstack PERN (Postgresql, Express, React, Node) Todo Application. The app is fairly simple but you can do all the CRUD functionalities and everything is stored nicely on a remote database. This app was a pleasure to make and an excellent learning opportunity since I had to implement everything from the group up and bring together everything I had learned so far. I decided not to use a database ORM and instead just use the PG node package to do all my database related calls. "
     },
     {
       "id": "6",
@@ -87,6 +87,14 @@
       "coverImage": "/langLogos/nodeLogo.jpg",
       "websiteURL": "",
       "details": "This is an e-commerce node back-end application I started developing using express, Mongoose and handlebars. The code is messy and unmodulated and the website not very optimised with unacceptable levels of lag. This was more a fun activity for me in order to see how long it would take to prototype an e-commerce website."
+    },
+    {
+      "id": "12",
+      "title": "Margaux Gallery",
+      "repoURL": "https://github.com/HamedPour/margaux-gallery",
+      "coverImage": "/langLogos/vueLogo.jpg",
+      "websiteURL": "",
+      "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasis enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
     }
   ]
 }
