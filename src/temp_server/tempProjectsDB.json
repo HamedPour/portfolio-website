@@ -60,7 +60,7 @@
       "id": "8",
       "title": "Ship Loader (C#)",
       "repoURL": "https://github.com/HamedPour/ShipLoadingGame",
-      "coverImage": "/langLogos/cSharpLogo.png",
+      "coverImage": "/langLogos/csharpLogo.png",
       "details": "This is a C# OOP game. It uses inherence and other object oriented features to create a fun little ship cargo loading simulator. I don’t usually write C# but when I do I love how robust and exact it is. Strong typing for the win!   "
     },
     {
@@ -107,7 +107,7 @@
       "id": "14",
       "title": "Trump Invasion Shooter",
       "repoURL": "https://github.com/HamedPour/TrumpInvasion",
-      "coverImage": "/langLogos/cSharpLogo.png",
+      "coverImage": "/langLogos/csharpLogo.png",
       "details": "This is a simple C# space shooter game created using .net Forms. Since it's close to the 2020 US election I just had to put Trump's face on the aliens. Vote Him Out!"
     }
   ]

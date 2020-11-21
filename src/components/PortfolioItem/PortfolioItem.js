@@ -16,11 +16,19 @@ function PortfolioItem(props) {
     props.closeModal();
   }
 
+  function openGitbubPage(url) {
+    const win = window.open(url, '_blank');
+    win.focus();
+
+  }
+
   return (
     <ItemContainer
       onMouseEnter={() => openModal(props)}
       onMouseLeave={closeModal}
     >
+    <div onClick={()=>openGitbubPage(props.repoURL)}>
+
       <h3>{props.title}</h3>
       <img
         src={process.env.PUBLIC_URL + props.coverImage}
@@ -28,14 +36,14 @@ function PortfolioItem(props) {
       />
       <br />
       <div>
-        <a target="_blank" rel="noopener noreferrer" href={props.repoURL}>
-          Github Repository
-        </a>
+        Github Repository
       </div>
+    </div>
+    
       <div hidden={!props.websiteURL}>
-        <a target="_blank" rel="noopener noreferrer" href={props.websiteURL}>
-          Live Preview
-        </a>
+          <a className="livelinkButton" target="_blank" rel="noopener noreferrer" href={props.websiteURL}>
+            Live Preview
+          </a>
       </div>
     </ItemContainer>
   );

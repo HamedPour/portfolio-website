@@ -8,14 +8,11 @@ export default styled.div`
   padding: 0px 20px 0px 20px;
   text-align: center;
   user-select: none;
+  cursor: pointer;
   transition: box-shadow 0.5s linear;
 
   &:hover {
     box-shadow: 2px 2px 4px #f7df1e;
-
-    & div {
-      text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
-    }
   }
 
   & h3 {
@@ -39,8 +36,18 @@ export default styled.div`
     text-decoration: none;
     color: inherit;
   }
-
-  & div a:hover {
-    text-decoration: underline;
+  
+  & .livelinkButton {
+    z-index: 1000;
+    border: 1px solid rgba(17, 191, 222, 0.1);
+    background-color: rgba(17, 191, 222, 0.08);
+    border-radius: 3px;
+    padding: 0px 10px 2px 10px;
   }
+  & .livelinkButton:hover {
+    border: 1px solid lightblue;
+    background-color: #1183ca;
+    color: #fff;
+  }
+
 `;
