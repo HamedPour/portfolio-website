@@ -50,6 +50,14 @@
     },
     {
       "id": "7",
+      "title": "React Piano",
+      "repoURL": "https://github.com/HamedPour/react-piano",
+      "coverImage": "/langLogos/TS_logo.png",
+      "websiteURL": "https://hamedpour.github.io/react-piano/",
+      "details": "This small piano app was made using React and TypeScript. It was an exercise is writing TS and rather enjoyable to make I must also add. It was very surprised how well TS allowed for React props to be typed and defined and thus prevent confusion. This would have been very helpful in my previous JS “Adventure Shop” app where the props become more difficult to track as the app got bigger. I have decided that I like TS."
+    },
+    {
+      "id": "8",
       "title": "Clear View",
       "repoURL": "https://github.com/HamedPour/travel-site",
       "coverImage": "/langLogos/htmlLogo.jpg",
@@ -57,14 +65,14 @@
       "details": "This website is one of the first I ever made using HTML, CSS and JavaScript. It is a mock travel website and never fails to make me feel sentimental for my earliest days of programming."
     },
     {
-      "id": "8",
+      "id": "9",
       "title": "Ship Loader (C#)",
       "repoURL": "https://github.com/HamedPour/ShipLoadingGame",
       "coverImage": "/langLogos/csharpLogo.png",
       "details": "This is a C# OOP game. It uses inherence and other object oriented features to create a fun little ship cargo loading simulator. I don’t usually write C# but when I do I love how robust and exact it is. Strong typing for the win!   "
     },
     {
-      "id": "9",
+      "id": "10",
       "title": "Lifespan Counter",
       "repoURL": "https://github.com/HamedPour/lifespan-counter",
       "coverImage": "/langLogos/vueLogo.jpg",
@@ -72,7 +80,7 @@
       "details": "This counter app was made using Vue.js to calculate an individual’s predicted remaining lifespan. For a quick project of a few hours, I found the output rather satisfying."
     },
     {
-      "id": "10",
+      "id": "11",
       "title": "Pairs Game",
       "repoURL": "https://github.com/HamedPour/pairs-game",
       "coverImage": "/langLogos/jsLogo.png",
@@ -80,7 +88,7 @@
       "details": "This is a little match the pairs game I made using JS. Give it a shot if you have a few minutes and see if you can beat my 45 clicks win"
     },
     {
-      "id": "11",
+      "id": "12",
       "title": "Mykee's Prime",
       "repoURL": "https://github.com/HamedPour/mykees-prime-game",
       "coverImage": "/langLogos/reactLogo.jpg",
@@ -88,7 +96,7 @@
       "details": "This is a fun little prime game I made using React in honour of Mr Mykee. Wonderful lad that he is."
     },
     {
-      "id": "12",
+      "id": "13",
       "title": "Ecommerce",
       "repoURL": "https://github.com/HamedPour/ecommerce-node",
       "coverImage": "/langLogos/nodeLogo.jpg",
@@ -96,7 +104,7 @@
       "details": "This is an e-commerce node back-end application I started developing using express, Mongoose and handlebars. The code is messy and unmodulated and the website not very optimised with unacceptable levels of lag. This was more a fun activity for me in order to see how long it would take to prototype an e-commerce website."
     },
     {
-      "id": "13",
+      "id": "14",
       "title": "Margaux Gallery",
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
       "coverImage": "/langLogos/vueLogo.jpg",
@@ -104,7 +112,7 @@
       "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasis enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
     },
     {
-      "id": "14",
+      "id": "15",
       "title": "Trump Invasion Shooter",
       "repoURL": "https://github.com/HamedPour/TrumpInvasion",
       "coverImage": "/langLogos/csharpLogo.png",
