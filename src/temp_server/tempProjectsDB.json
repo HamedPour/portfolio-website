@@ -6,7 +6,7 @@
       "repoURL": "https://github.com/HamedPour/Island-House",
       "coverImage": "/langLogos/htmlLogo.jpg",
       "websiteURL": "http://islandhouseholyisland.co.uk/",
-      "details": "This is a multi-page, custom-designed website developed for a small business client. I utilised HTML5, SCSS, JavaScript and a splash of jQuery. I learned a lot from this project and the client was very happy with the result."
+      "details": "This is a multi-page, custom-designed website developed for a small business client. I utilised HTML5, SCSS, JavaScript and a splash of jQuery. I learnt a lot from this project and the client was very happy with the result."
     },
     {
       "id": "2",
@@ -46,7 +46,7 @@
       "repoURL": "https://github.com/HamedPour/PERN-todoApp",
       "coverImage": "/langLogos/PERN.png",
       "websiteURL": "https://pern-todo-app-hamed.herokuapp.com/",
-      "details": "This is a fullstack PERN (Postgresql, Express, React, Node) Todo Application. The app is fairly simple but you can do all the CRUD functionalities and everything is stored nicely on a remote database. This app was a pleasure to make and an excellent learning opportunity since I had to implement everything from the group up and bring together everything I had learned so far. I decided not to use a database ORM and instead just use the PG node package to do all my database related calls. "
+      "details": "This is a fullstack PERN (Postgresql, Express, React, Node) Todo Application. The app is fairly simple but you can do all the CRUD functionalities and everything is stored nicely on a remote database. This app was a pleasure to make and an excellent learning opportunity since I had to implement everything from the ground up and bring together everything I had learned so far. I decided not to use a database ORM and instead just use the PG node package to do all my database related calls. "
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "repoURL": "https://github.com/HamedPour/react-piano",
       "coverImage": "/langLogos/TS_logo.png",
       "websiteURL": "https://hamedpour.github.io/react-piano/",
-      "details": "This small piano app was made using React and TypeScript. It was an exercise is writing TS and rather enjoyable to make I must also add. It was very surprised how well TS allowed for React props to be typed and defined and thus prevent confusion. This would have been very helpful in my previous JS “Adventure Shop” app where the props become more difficult to track as the app got bigger. I have decided that I like TS."
+      "details": "This small piano app was made using React and TypeScript. It was an exercise is writing TS and rather enjoyable. I was very surprised how well TS allowed for React props to be typed and defined and thus prevent confusion. This would have been very helpful in my previous JS “Adventure Shop” app where the props become more difficult to track as the app got bigger. I have decided that I like TS."
     },
     {
       "id": "8",
@@ -109,14 +109,14 @@
       "repoURL": "https://github.com/HamedPour/margaux-gallery",
       "coverImage": "/langLogos/vueLogo.jpg",
       "websiteURL": "",
-      "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasis enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
+      "details": "This was a gallery website I made with Vue.js and Vuetify.js. I can’t emphasise enough how much I enjoyed working with Vue. For the database I used the very intuitive noSql database Firebase. Now it has a range of outdated dependencies, so is currently offline."
     },
     {
       "id": "15",
-      "title": "Trump Invasion Shooter",
+      "title": "Invasion Shooter",
       "repoURL": "https://github.com/HamedPour/TrumpInvasion",
       "coverImage": "/langLogos/csharpLogo.png",
-      "details": "This is a simple C# space shooter game created using .net Forms. Since it's close to the 2020 US election I just had to put Trump's face on the aliens. Vote Him Out!"
+      "details": "This is a simple C# space shooter game created using .net Forms. This was a fun weekend activity to keep working on my C#"
     }
   ]
 }
